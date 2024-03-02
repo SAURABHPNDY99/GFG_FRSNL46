@@ -1,0 +1,98 @@
+/* FOR PROFILE PIC */
+.img-container{
+    display: inline;
+    margin-right: 30px;
+    position: relative;
+}
+
+.image-circle{
+    border-radius: 50%;
+
+}
+.img-xl{
+    height: 200px;
+    width: 200px;
+}
+
+.img-lg{
+    height: 150px;
+    width: 150px;
+}
+
+.img-md{
+    height: 100px;
+    width: 100px;
+}
+
+.img-sm{
+    height: 50px;
+    width: 50px;
+}
+
+.busy{
+    background-color: red;
+}
+.away{
+    background-color: #d6cd18;
+}
+.available{
+    background-color: green;
+}
+
+.badge-xl{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+}
+
+.badge-lg{
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+}
+
+.badge-md{
+    height: 18px;
+    width: 18px;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 8px;
+    right: 13px;
+}
+
+.badge-sm{
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+}
+/* FOR CART ICON */
+.icon-container{
+    display: inline;
+    margin-right: 30px;
+    position: relative;
+}
+.icon{
+    height: 50px;
+    width: 50px;
+}
+.badge{
+    height: 20px;
+    width: 20px;
+    background-color: red;
+    border-radius: 50%;
+    color: white;
+    position: absolute;
+    text-align: center;
+    justify-content: center;
+    position: absolute;
+    right: -10px;
+}
