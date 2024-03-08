@@ -1,78 +1,125 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.parent{
-    display: flex;
-    padding: 10px;
-    background-color: lightblue;
-    justify-content: space-between;
+.parent {
+  display: flex;
+  padding: 10px;
+  background-color: lightblue;
+  justify-content: space-between;
 }
-.container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 1rem;
-    margin: 0px 20px
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  margin: 0px 20px;
 }
-.logo{
-    height: 4rem;
-    width: 4rem;
-    border-radius: 50%;
-}
-
-
-.link{
-    text-decoration: none;
-    color: grey;
-    font-size: 1.5rem;;
+.logo {
+  height: 4rem;
+  width: 4rem;
+  border-radius: 50%;
 }
 
-.ul{
-    gap: 2rem;
-    display: flex;
-    list-style:  none;
+.link {
+  text-decoration: none;
+  color: grey;
+  font-size: 1.5rem;
 }
 
-.content{
-    display: flex;
-    margin: 10px;
+.ul {
+  gap: 2rem;
+  display: flex;
+  list-style: none;
+}
+
+.content {
+  display: flex;
+  margin: 10px;
 }
 /* ALERT */
-.alert-container{
-    position: absolute;
-    display: flex;
-    bottom: 5%;
-    width: 100%;
-    justify-content: space-between;
+.alert-container {
+  position: absolute;
+  display: flex;
+  bottom: 5%;
+  width: 100%;
+  justify-content: space-between;
 }
-.alert{
-    display: flex;
-    width: 300px;
-    height: 50px;
-    border-radius: 3px;
-    position: relative;
-    align-items: center;
-    justify-content: space-around;
-}
-
-.success{
-    background-color: green;
-    color: white;
-}
-.failure{
-    background-color: red;
-    color: white;
-}
-.warning{
-    background-color: yellow;
-}
-.btn{
-    background: transparent;
-    border-style: none;
-    cursor: pointer;
+.alert {
+  display: flex;
+  width: 300px;
+  height: 50px;
+  border-radius: 3px;
+  position: relative;
+  align-items: center;
+  justify-content: space-around;
 }
 
+.success {
+  background-color: green;
+  color: white;
+}
+.failure {
+  background-color: red;
+  color: white;
+}
+.warning {
+  background-color: yellow;
+}
+.btn {
+  background: transparent;
+  border-style: none;
+  cursor: pointer;
+}
 
+/* CARD */
+
+.card {
+  position: absolute;
+  width: 350px;
+  height: 250px;
+  border: solid 1px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 5px 5px 5px grey;
+  left: 35%;
+  top: 35%;
+}
+
+.title {
+  width: 100%;
+  font-size: 2rem;
+  padding: 10px;
+}
+
+.card-text {
+  padding: 10px;
+}
+
+.btn {
+  width: auto;
+  min-width: 60px;
+  height: 25px;
+  border-radius: 5px;
+}
+
+.save {
+  background-color: green;
+  color: white;
+}
+.clear {
+  background-color: red;
+  color: white;
+}
+
+.footer-btn {
+  display: flex;
+  flex-direction: row;
+  align-self: flex-end;
+  gap: 15px;
+  padding: 10px;
+}
