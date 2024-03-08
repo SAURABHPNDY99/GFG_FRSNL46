@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.parent{
+    display: flex;
+    background-color: lightblue;
+    justify-content: space-between;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin: 0px 20px
+}
+.logo{
+    height: 5rem;
+    width: 5rem;
+    border-radius: 50%;
+}
+
+
+.link{
+    text-decoration: none;
+    color: grey;
+    font-size: 1.5rem;;
+}
+
+.ul{
+    gap: 2rem;
+    display: flex;
+    list-style:  none;
+}
