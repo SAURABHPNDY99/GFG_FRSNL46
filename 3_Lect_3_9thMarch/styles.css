@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+:root{
+    --primary-color: #F9A826;
+    --secondary-color: #ffedd5;
+    --secondary-background: #fff7ed;
+}
+
+/* RESET CSS */
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.logo{
+    height: 3.5rem;
+    width: 3.5rem;
+    border-radius: 50%;
+    border: solid 1px var(--secondary-color);
+}
+
+.header{
+    display: flex;
+    flex-grow: 1;
+    align-items: center;
+    background-color: var(--primary-color);
+    gap: 1rem;
+    padding: 8px;
+    border-bottom-left-radius: 2rem;
+    color: var(--secondary-color);
+}
+
+.nav{
+    display: flex;
+    gap: 1rem;
+    list-style: none;
+    padding-right: 8px;
+}
+
+.link{
+    color: var(--secondary-color);
+    text-decoration: none;
+}
+
+.link :hover{
+    
+}
+
+body{
+    background-color: #ffedd5;
+    overflow-x: hidden;
+    color: #0f172a;
+    font-family: "Roboto Mono", monospace;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.hero{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    flex-grow: 1;
+}
+
+.hero-title{
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-img{
+    height: 30rem;
+    width: 30rem;
+}
+.hero-image{
+    width: 50%;
+    align-self: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.intro-text{
+    font-size: 1.4rem;
+}
+
+.highlighted{
+    color: var(--primary-color);
+    margin-left: 1rem;
+    font-weight: bold;
+}
+
+.about{
+    height: 100%;
+    width: 100%;
+    background-color: var(--secondary-background);
+    padding: 2.5rem 1rem;
+    line-height: 150%;
+}
+
+.title{
+    font-size: 1.8rem;
+    color: var(--primary-color);
+}
+
+.about-text{
+    padding-top: 1rem;
+}
+.skills{
+    padding: 2.5rem 1rem;
+
+}
+
+.skills-img{
+    height: 4rem;
+    width: 4rem;
+    background-color: var(--secondary-color);
+}
+
+.skills-img-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 1rem;
+}
+
+.projects{
+    padding: 2.5rem 1rem;
+    background-color: var(--secondary-background);
+}
+
+.blogs{
+    padding: 2.5rem 1rem;
+}
+
+.button{
+    background-color:  transparent;
+    border: 0;
+    width: 7rem;
+    height: 2rem;
+    opacity: 100%;
+}
+
+.button-primary{
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    border-radius: 5px;
+    margin: 1rem 0;
+}
+
+.button-primary:hover{
+    cursor: pointer;
+}
+
+.button-primary:hover{
+    transform: scale(1.2);
+    opacity: 82%;
+}
+
+.footer{
+    background-color: var(--primary-color);
+    border-top-right-radius: 2rem;
+    display:  flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: var(--secondary-color);
+    font-weight: 600;
+    padding: 1rem;
+}
+
+.connect{
+    padding: 1rem;
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+}
+.connect-img{
+    height: 3rem;
+    width: 3rem;
+}
